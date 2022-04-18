@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet"  type="text/css" href="Taniti.css"/>
+<Title>Food on Taniti</Title>
+<style>
+body{
+    background-image: url("../UA TASK 2/Media/PanAsianFood.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html"> Home</a>
+            <a href="food.html" class='active-page'>Food</a>
+            <a href="lodging.html">Lodging</a>
+            <a href="entertainment.html">Entertainment</a>
+            <a href="transportation.html">Transportation</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+              <br>
+              <br>
+        </div>
+    </header> 
+    <h1 style="color: white; padding-left:170px; font-size: 180px; font-family: Brush Script MT, Brush Script Std, cursive;">Food on Taniti</h1>
+<div id="page-container">
+    <div id="content-wrap">
+        <div class="row">
+            <div class="column">
+                <div class="homeSlideShow" style="max-width:50%; max-height:500px;">
+                    <img class="mySlides" src="../UA TASK 2/Media/PanAsianFood2.jpeg" style="width:1100px; height: 300px; box-shadow: 10px 10px 5px grey;">
+                    <img class="mySlides" src="../UA TASK 2/Media/sushi.jpeg" style="width:1100px; height: 300px; box-shadow: 10px 10px 5px grey;">
+                    <img class="mySlides" src="../UA TASK 2/Media/burgers.jpeg" style="width:1100px; height: 300px; box-shadow: 10px 10px 5px grey;">
+                </div>
+                <script>
+                    var myIndex = 0;
+                    carousel();
+                    
+                    function carousel() {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      myIndex++;
+                      if (myIndex > x.length) {myIndex = 1}    
+                      x[myIndex-1].style.display = "block";  
+                      setTimeout(carousel, 2000); // Change image every 2 seconds
+                    }
+                    </script>
+                    <br>
+                    <br>
+
+                    <div class="content">
+                        <div class="content-column">
+                                
+                                <ul>
+                                    <h2>Restaurants</h2>
+                                    <li><a href="restaurant1.html">Restaurant1</a></li>
+                                    <p>Street Location  &nbsp; &nbsp; &nbsp; &nbsp;    Phone Number: 111-111-1111  &nbsp; &nbsp; &nbsp; &nbsp;  Hours: 8 AM - 12 AM <br> <br>
+                                        Serves Fresh Fish and Rice
+                                    </p>   
+                                    <li><a href="restaurant2.html">Restaurant2</a></li>
+                                    <p>Street Location  &nbsp; &nbsp; &nbsp; &nbsp;   Phone Number: 222-222-2222  &nbsp; &nbsp; &nbsp; &nbsp;  Hours: 8 AM - 12 AM <br> <br>
+                                        Serves Fresh Fish and Rice                                       
+                                    </p>
+                                    <li><a href="restaurant3.html">Restaurant3</a></li>
+                                    <p>Street Location &nbsp; &nbsp; &nbsp; &nbsp;  Phone Number: 333-333-3333 &nbsp; &nbsp; &nbsp; &nbsp;  Hours: 8 AM - 12 AM<br> <br>
+                                        American Style Meals
+                                    </p>
+                                    <li><a href="restaurant4.html">Restaurant4</a></li>
+                                    <p>Street Location  &nbsp; &nbsp; &nbsp; &nbsp;   Phone Number: 444-444-4444  &nbsp; &nbsp; &nbsp; &nbsp;  Hours: 8 AM - 12 AM <br> <br>
+                                        American Style Meals                                      
+                                    </p>
+                                    <li><a href="restaurant5.html">Restaurant5</a></li>
+                                    <p>Street Location &nbsp; &nbsp; &nbsp; &nbsp;  Phone Number: 555-555-5555 &nbsp; &nbsp; &nbsp; &nbsp;  Hours: 8 AM - 12 AM<br> <br>
+                                        Pan-Asian meals
+                                    </p>
+                                </ul>
+                                <p><u>Alcohol is not allowed to be served or sold between the hours of midnight and 9:00 a.m. 
+                                    The drinking age on Taniti is 18 and the drinking age is not strictly enforced.</u>                              
+                                </p>
+                                <p><u>Taniti uses the U.S. dollar as its currency, but many businesses will also accept euros and yen. Several banks facilitate currency 
+                                    exchange, and many businesses accept major credit cards.</u>
+                                </p>
+                               
+                                <ul>
+                                     <h2>Grocery Stores</h2>
+                                    <li><a href="store1.html">Grocery Store 1</a></li>
+                                    <p>Street Location &nbsp; &nbsp; &nbsp; &nbsp;  Phone Number: 666-666-6666 &nbsp; &nbsp; &nbsp; &nbsp;  Hours: 8 AM - 12 AM<br>
+                                    </p>
+                                    <li><a href="store2.html">Grocery Store 2</a></li>
+                                    <p>Street Location &nbsp; &nbsp; &nbsp; &nbsp;  Phone Number: 777-777-7777 &nbsp; &nbsp; &nbsp; &nbsp;  Hours: 8 AM - 12 AM<br>
+                                    </p>
+                                    <li><a href="store3.html">Supermarket 1</a></li>
+                                    <p>Street Location &nbsp; &nbsp; &nbsp; &nbsp;  Phone Number: 888-888-8888 &nbsp; &nbsp; &nbsp; &nbsp;  Hours: 8 AM - 12 AM<br>
+                                    </p>
+                                    <li><a href="store4.html">Supermarket 2</a></li>
+                                    <p>Street Location &nbsp; &nbsp; &nbsp; &nbsp;  Phone Number: 999-999-9999 &nbsp; &nbsp; &nbsp; &nbsp;  Hours: 8 AM - 12 AM<br>
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="http://AboutUs.html"> About Taniti</a>  
+        <a href="ContactUs.html" style="padding-left:50px">Contact Us</a> 
+        <a href="http://www.facebook.com/">
+          <img src="../Task2/media/facebook.png" alt="Facebook logo" width="40px" height="40px" Align="right">
+        </a> 
+        <a href="http://www.twitter.com/">
+          <img src="../Task2/media/twitter.png" alt="Twitter logo" width="40px" height="40px" Align="right">
+        </a>
+        <a href="http://www.instagram.com/">
+          <img src="../Task2/media/instagram.png" alt="Instagram logo" width="40px" height="40px" Align="right">
+        </a>
+        <br/>
+        <p>&#169;2021 Taniti&#174;. All rights reserved. </p>
+        
+      </footer>
+</div>
+</body>
+</html>
